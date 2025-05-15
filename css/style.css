@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+}
+#info__senai{
+    list-style: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: rgb(110, 110, 110);
+    padding: 10px;
+    border-radius: 50px;
+}
+#icon__senai{
+    width: 100px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background: aliceblue;
+}
+#section__senai{
+    margin: 0 auto;
+    width: 80%;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+#mensagens__senai{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mensagem__senai{
+    max-width: 300px;
+    border-radius: 0px 10px 0px 10px ;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.mensagem__senai > legend {
+    
+    align-self: self-end;
+    padding: 8px;
+    min-width: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#bot__senai{
+    align-self: self-start;
+    background: rgb(0, 140, 255);
+}
+#bot__senai > legend {
+    background: rgb(74, 158, 255);
+}
+#usuario__senai{
+    align-self: self-end;
+    background: rgb(255, 0, 119);
+}
+#usuario__senai > legend {
+    background: rgb(255, 85, 165);
+
+}
+#div__input__senai{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 60%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 100px;
+}
+#input__senai{
+    flex: 1;
+    outline: none;
+    background: none;
+    border: none;
+}
+#button__senai{
+    font-size: 20px;
+    outline: none;
+    background: none;
+    border: none;
+}
+#send{
+    display: none;
+}
